@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+html{
+    font-family: 'Lato', sans-serif;;
+    font-weight: 400;
+    font-size: 16px;
+}
+.header__container{
+    background-image: url("../img/bg-header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding-bottom: 500px;
+}
+.header{
+    max-width: 1170px;
+    display: flex;
+    margin: 0 auto;
+    height: 51px;
+    align-items: center;
+    color: white;
+}
+.header__social{
+    padding-right: 15px;
+}
+.header__social__icons{
+    padding: 5px;
+}
+.header__empty-cell{
+    height: 51px;
+    min-width: 590px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.header__e-mail{
+    min-width: 250px;
+    text-align: center;
+}
+.header__phone{
+    border-left: 1px solid white;
+    text-align: center;
+    min-width: 174px;
+    height:  51px;
+    line-height: 51px;
+    padding-left: 14px;
+}
+.header__call{
+    font-weight: 700;
+    font-size: 18px;
+}
+.hr-header{
+    margin: 0;
+}
